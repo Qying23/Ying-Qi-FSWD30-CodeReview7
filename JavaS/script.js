@@ -16,12 +16,9 @@ class Person {
  
   render(i) {
     let msg ='';
-    if (i%3==0) 
-      {msg +='<div style="clear:both"></div>'
-      }; 
      msg+= `
   
-      <div class="pers" style="float:left">
+      <div class="pers class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
         <div class="pic">
           <img src="${this.img}">
         </div>
