@@ -23,13 +23,13 @@ class Person {
           <img src="${this.img}">
         </div>
         <div class="text">
-          <h4> Name: ${this.name}</h4>
-          <h4> Surname: ${this.surname}</h4>
+          <p> Name: <h4>${this.name}</h4></p>
+          <p> Surname: <h4>${this.surname}</h4></p>
           <p> Gender: ${this.gender}</p>
           <p> Age: ${this.age}</p>
           <p> ${this.height}, ${this.weight}</p>
           <button onclick="like(`+ i +`)">Like</button>
-          <span id="like`+ i +`">${this.like} </span><img src="img/like.png">
+          <span class="like" id="like`+ i +`">${this.like} </span><img src="img/like.png">
         </div>
       </div>
       `;
